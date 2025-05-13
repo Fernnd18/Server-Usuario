@@ -1,0 +1,19 @@
+{
+  "name": "server-usuario",
+  "version": "1.0.0",
+  "description": "Este es un servidor de usuario que se conecta a una base de datos MongoDB y permite la creación, lectura, actualización y eliminación de usuarios.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Fernando",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
